@@ -97,7 +97,29 @@ main {
   align-self: flex-start;
   border-radius: 10px;
   border: 5px solid #523249;
+  animation: imagenes 2s infinite;
 }
+
+
+/* ANIMACIONES */
+
+
+@keyframes imagenes {
+  0% {
+    border-radius: 25% ;
+}
+25% {
+    border-radius: 50%;    }
+50% {
+    border-radius: 75%;
+}
+100% {
+   border-radius: 100%; 
+}
+}
+
+
+
 
 /* .section__logo a:hover {
   box-shadow: 0 0 2px 1px #523249;
@@ -175,6 +197,13 @@ main {
 
 .vino1 {
   grid-area: vino1;
+  animation: imag 5s infinite;
+}
+
+@keyframes imag {
+  0% {
+  opacity: 50%;
+}
 }
 
 .p__caracteristica {
