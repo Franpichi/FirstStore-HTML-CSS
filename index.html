@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vinum</title>
+  <link rel="stylesheet" href="./Style/style.css">
+</head>
+
+<body class="todo">
+
+  <header>
+    <!--Descuento envio precio e idioma-->
+    <section class="descuento">
+      <p>Codigo de Descuento: <strong class="vinum"> VINUM </strong></p>
+    </section>
+    <section>
+      <h1 class="titulo">Vinum</h1>
+    </section>
+    <section class="listaSuperior">
+      <select class="envio">
+        <label>Enviar A:</label>
+        <option>Argentina</option>
+        <option>Brasil</option>
+        <option>Chile</option>
+        <option>Ecuador</option>
+        <option>Venezuela</option>
+      </select>
+      <select class="moneda">
+        <label>Moneda</label>
+        <option>$Ar</option>
+        <option>R$</option>
+        <option>$ch</option>
+        <option>$Us</option>
+      </select>
+    </section>
+  </header>
+
+  <nav>
+    <div>
+      <ul class="menuDesplegable">
+        <li class="menu"><a href="./index.html" >Home</a></li>
+        <li class="menu"><a href="./Pages/vino.html" >Vinos</a></li>
+        <li class="menu"><a href="./Pages/maridaje.html">Maridaje</a></li>
+        <li class="menu"><a href="./Pages/regiones.html">Regiones</a></li>
+        <li class="menu"><a href="./Pages/ofertas.html">Ofertas</a></li>
+        <li class="menu"><a href="./Pages/accesorios.html">Accesorios</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Logo Buscador Inicio de sesion y carrito-->
+  <main>
+    <section>
+      <div class="div__logo">
+        <a href="./index.html" class="linkImagen">
+          <img src="./Images/Logo.png" alt="Logo Vinum" class="section__logo" width="200px" />
+        </a>
+        <p class="p__eslogan">VINUM el placer de tomar un vino, la mejor elección.</p>
+      <!--Inicio de Sesion-->
+      <a href="#" class="section__sesion">
+        <img src="./Images/usuario.png" alt="Inicio de Sesión" width="50px" height="50px">
+        Inicio de Sesion</a>
+      <!-- Carrito -->
+      <a href="#" class="section__carrito">
+        <img src="./Images/carrito.png" alt="Carrito" width="50px" height="50px">
+        Carrito</a>
+      </div>
+      <div>
+        <!--Motor de busqueda-->
+        <input type="search" id="busquedas" name="q" class="section__busqueda" />
+      </div>
+    </section>
+
+    <hr>
+    <h2 class="section__titulo--secundario">Destacados de la Semana</h2>
+    <section class="section__destacados">
+      <!--Imagen Numero 1-->
+      <img class="vino1" src="./Images/Botella1.webp" alt="Vino Destacado 1" width="200px" height="300px"/>
+      <h3 class="section__titulo--tercero">Caracteristicas</h3>
+      <p class="p__caracteristica">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+        debitis magni exercitationem, rem saepe aspernatur quidem, commodi
+        ullam eius officiis quo. Dicta deleniti, nemo dolore vero sapiente
+        magnam necessitatibus neque?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+        debitis magni exercitationem, rem saepe aspernatur quidem, commodi
+        ullam eius officiis quo. Dicta deleniti, nemo dolore vero sapiente
+        magnam necessitatibus neque?
+      </p>
+      <ul class="ul__caracteristicas">
+        <li class="li__precio">Precio:</li>
+        <li class="li__precio">Envio:</li>
+      </ul>
+    </section>
+    <section class="section__destacados">  
+      <!--Imagen Numero 2-->
+      <img class="vino1" src="./Images/Botella2.png" alt="Vino Destacado 2" width="200px" height="300px" />
+      <h3 class="section__titulo--tercero">Caracteristicas</h3>
+      <p class="p__caracteristica">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+        debitis magni exercitationem, rem saepe aspernatur quidem, commodi
+        ullam eius officiis quo. Dicta deleniti, nemo dolore vero sapiente
+        magnam necessitatibus neque?
+      </p>
+      <ul class="ul__caracteristicas">
+        <li class="li__precio">Precio:</li>
+        <li class="li__precio">Envio:</li>
+      </ul>
+    </section>
+    <section class="section__destacados">
+      <!--Imagen Numero 3-->
+      <img class="vino1" src="./Images/Botella3.png" alt="Vino Destacado 3" width="200px" height="300px" />
+      <h3 class="section__titulo--tercero">Caracteristicas</h3>
+      <p class="p__caracteristica">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+        debitis magni exercitationem, rem saepe aspernatur quidem, commodi
+        ullam eius officiis quo. Dicta deleniti, nemo dolore vero sapiente
+        magnam necessitatibus neque?
+      </p>
+      <ul class="ul__caracteristicas">
+        <li class="li__precio">Precio:</li>
+        <li class="li__precio">Envio:</li>
+      </ul>
+    </section>
+    <hr>
+    <h2 class="section__titulo--secundario">Ofertas</h2>
+
+    <section class="section__oferta">
+      <!--Imagen Numero 1-->
+      <img class="vinoOferta" src="./Images/Botella4.jpg" alt="Ofertas 1" width="200px" height="300px" />
+      <h3 class="section__titulo--tercero">Caracteristicas</h3>
+      <p class="p__caracteristica">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+        debitis magni exercitationem, rem saepe aspernatur quidem, commodi
+        ullam eius officiis quo. Dicta deleniti, nemo dolore vero sapiente
+        magnam necessitatibus neque?
+      </p>
+      <ul class="ul__caracteristicas">
+        <li>Precio:</li>
+        <li>Envio:</li>
+      </ul>
+    </section>
+    <section class="section__oferta">
+      <!--Imagen Numero 2-->
+      <img class="vinoOferta" src="./Images/Botella5.jpg" alt="Ofertas 2" width="200px" height="300px" />
+      <h3 class="section__titulo--tercero">Caracteristicas</h3>
+      <p class="p__caracteristica">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+        debitis magni exercitationem, rem saepe aspernatur quidem, commodi
+        ullam eius officiis quo. Dicta deleniti, nemo dolore vero sapiente
+        magnam necessitatibus neque?
+      </p>
+      <ul class="ul__caracteristicas">
+        <li>Precio:</li>
+        <li>Envio:</li>
+      </ul>
+    </section>
+    <section class="section__oferta">
+      <!--Imagen Numero 3-->
+      <img class="vinoOferta" src="./Images/Botella6.png" alt="Ofertas 3" width="200px" height="300px" />
+      <h3 class="section__titulo--tercero">Caracteristicas</h3>
+      <p class="p__caracteristica">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+        debitis magni exercitationem, rem saepe aspernatur quidem, commodi
+        ullam eius officiis quo. Dicta deleniti, nemo dolore vero sapiente
+        magnam necessitatibus neque?
+      </p>
+      <ul class="ul__caracteristicas">
+        <li>Precio:</li>
+        <li>Envio:</li>
+      </ul>
+    </section>
+    <hr>
+    <h2 class="section__titulo--secundario"> El mas vendido </h2>
+    <section class="section__vendidos">
+      <img class="masVendido" src="./Images/Botellas.jpg" alt="El mas vendido">
+      <h3 class="section__titulo--tercero" id="h3__masVendido">Santa Julia</h3>
+      <p class="datosMasVendido">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quidem! Hic animi minus quis voluptatum iusto deleniti repellat. Unde sapiente atque nemo quasi suscipit quae.</p>
+    </section>
+    <section>
+      <ul class="redes">
+        <li>
+          <a href="#"><img src="./Images/facebook.png" alt="Facebook" width="40px" height="40px" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./Images/instagram.webp" alt="Instagram" width="40px"
+              height="40px" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./Images/youtube.png" alt="YouTube" width="40px" height="40px" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./Images/twitter.png" alt="Twitter" width="40px" height="40px" /></a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>Todos Los Derechos Reservados © 2022 Franco Pizzichini</footer>
+</body>
+
+</html>

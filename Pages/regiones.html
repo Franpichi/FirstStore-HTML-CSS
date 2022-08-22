@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vinum</title>
+  <link rel="stylesheet" href="../Style/style.css">
+</head>
+
+<body>
+
+  <header>
+    <!--Descuento envio precio e idioma-->
+    <section class="descuento">
+      <p>Codigo de Descuento: <strong class="vinum">VINUM</strong></p>
+    </section>
+    <section>
+      <h1 class="titulo">Vinum</h1>
+    </section>
+    <section class="listaSuperior">
+      <select class="envio">
+        <label>Enviar A:</label>
+        <option>Argentina</option>
+        <option>Brasil</option>
+        <option>Chile</option>
+        <option>Ecuador</option>
+        <option>Venezuela</option>
+      </select>
+      <select class="moneda">
+        <label>Moneda</label>
+        <option>$Ar</option>
+        <option>R$</option>
+        <option>$ch</option>
+        <option>$Us</option>
+      </select>
+    </section>
+  </header>
+
+  <nav>
+    <div>
+      <ul class="menuDesplegable">
+        <li class="menu"><a href="../index.html">Home</a></li>
+        <li class="menu"><a href="../Pages/vino.html">Vinos</a></li>
+        <li class="menu"><a href="../Pages/maridaje.html">Maridaje</a></li>
+        <li class="menu"><a href="../Pages/regiones.html">Regiones</a></li>
+        <li class="menu"><a href="../Pages/ofertas.html">Ofertas</a></li>
+        <li class="menu"><a href="../Pages/accesorios.html">Accesorios</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Logo Buscador Inicio de sesion y carrito-->
+  <main>
+    <section>
+      <div class="div__logo">
+        <a href="./index.html" class="linkImagen">
+          <img src="../Images/Logo.png" alt="Logo Vinum" class="section__logo" width="200px" />
+        </a>
+        <p class="p__eslogan">VINUM el placer de tomar un vino, la mejor elección.</p>
+      <!--Inicio de Sesion-->
+      <a href="#" class="section__sesion">
+        <img src="../Images/usuario.png" alt="Inicio de Sesión" width="50px" height="50px">
+        Inicio de Sesion</a>
+      <!-- Carrito -->
+      <a href="#" class="section__carrito">
+        <img src="../Images/carrito.png" alt="Carrito" width="50px" height="50px">
+        Carrito</a>
+      </div>
+      <div>
+        <!--Motor de busqueda-->
+        <input type="search" id="busquedas" name="q" class="section__busqueda" />
+      </div>
+    </section>
+      <section>
+        <h2 class="h2Importante">Regiones</h2>
+        <!--Mapa-->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1437983.3239742264!2d6.7993867245113995!3d45.25666571323559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4787743b019db167%3A0xbcc7b8edf2123bff!2sPiamonte%2C%20Italia!5e0!3m2!1ses-419!2sdk!4v1658590923789!5m2!1ses-419!2sdk"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+        <!-- Regiones igual que el filtro-->
+        <h2 class="h2Impotante">Regiones</h2>
+        <ul>
+          <li class="filtoVinos">Burdeos</li>
+          <li class="filtoVinos">Piamonte</li>
+          <li class="filtoVinos">Toscana</li>
+          <li class="filtoVinos">Cuyo</li>
+        </ul>
+      </section>
+      <section>
+        <!--Imagen e informacion-->
+        <!--Imagen 1er animal y su informacion -->
+        <img
+          src="../Images/Burdeos.png"
+          alt="Burdeos"
+          width="150px"
+          height="150px"
+        />
+        <h2 class="h2Importante">Burdeos</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
+          voluptatibus nobis fuga doloremque minus at. Ea pariatur laborum in
+          voluptas facere. Ullam eos laudantium debitis nemo facilis cum! Ipsa,
+          commodi.
+        </p>
+        <!--Imagen 2do animal y su informacion -->
+        <img
+          src="../Images/Piamonte.gif"
+          alt="Piamonte"
+          width="150px"
+          height="150px"
+        />
+        <h2 class="h2Importante">Piamonte</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
+          voluptatibus nobis fuga doloremque minus at. Ea pariatur laborum in
+          voluptas facere. Ullam eos laudantium debitis nemo facilis cum! Ipsa,
+          commodi.
+        </p>
+        <!--Imagen 3ro animal y su informacion -->
+        <img
+          src="../Images/Toscana.jpg"
+          alt="Toscana"
+          width="150px"
+          height="150px"
+        />
+        <h2 class="h2Importante">Toscana</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
+          voluptatibus nobis fuga doloremque minus at. Ea pariatur laborum in
+          voluptas facere. Ullam eos laudantium debitis nemo facilis cum! Ipsa,
+          commodi.
+        </p>
+        <!--Imagen 4to animal y su informacion -->
+        <img src="../Images/Cuyo.png" alt="Cuyo" width="150px" height="150px" />
+        <h2 class="h2Importante">Cuyo</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
+          voluptatibus nobis fuga doloremque minus at. Ea pariatur laborum in
+          voluptas facere. Ullam eos laudantium debitis nemo facilis cum! Ipsa,
+          commodi.
+        </p>
+      </section>
+            <!--links extras y RRSS-->
+            <section>
+              <ul class="redes">
+                  <li>
+                      <a href="#"><img src="../Images/facebook.png" alt="Facebook" width="40px" height="40px" /></a>
+                  </li>
+                  <li>
+                      <a href="#"><img src="../Images/instagram.webp" alt="Instagram" width="40px"
+                          height="40px" /></a>
+                  </li>
+                   <li>
+                      <a href="#"><img src="../Images/youtube.png" alt="YouTube" width="40px" height="40px" /></a>
+                  </li>
+                  <li>
+                      <a href="#"><img src="../Images/twitter.png" alt="Twitter" width="40px" height="40px" /></a>
+                  </li>
+              </ul>
+          </section>
+          </main>
+          <footer>Todos Los Derechos Reservados © 2022 Franco Pizzichini</footer>
+      </body>
+            
+  </html>

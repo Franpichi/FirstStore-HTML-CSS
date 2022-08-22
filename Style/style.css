@@ -1,0 +1,335 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.todo {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 95px;
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.descuento {
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+strong {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  color: black;
+}
+
+.listaSuperior {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.envio {
+  color: black;
+  background-color: #564256;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.moneda {
+  color: black;
+  background-color: #564256;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  padding-right: 15px;
+}
+
+.menuDesplegable {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  background-color: white;
+  font-size: 27px;
+  color: #000;
+  border: #000 solid;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  font-size: 25px;
+  color: #880D1E;
+}
+
+main {
+  background-color: white;
+}
+
+.div__logo {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.section__logo {
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+  border-radius: 10px;
+  border: 5px solid #523249;
+}
+
+/* .section__logo a:hover {
+  box-shadow: 0 0 2px 1px #523249;
+} */
+.p__eslogan {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+}
+
+.section__sesion {
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+  background-color: white;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+
+}
+
+.section__carrito {
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+  background-color: white;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.section__sesion:hover {
+  font-size: 20px;
+  color: #880D1E;
+}
+
+.section__carrito:hover {
+  font-size: 20px;
+  color: #880D1E;
+}
+
+.section__busqueda {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 400px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: white;
+  color: #94778B;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 22px;
+  margin: auto;
+  text-align: center;
+}
+
+.section__destacados,
+.section__oferta {
+  display: grid;
+  grid-template-columns: 7fr 15fr 7fr;
+  grid-template-rows: 3fr 15fr;
+  row-gap: 15px;
+  column-gap: 50px;
+  grid-template-areas: "section__titulo--tercero section__titulo--tercero section__titulo--tercero"
+    "vino1 p__caracteristica li__precio";
+}
+
+.section__titulo--tercero {
+  grid-area: section__titulo--tercero;
+}
+
+.vino1 {
+  grid-area: vino1;
+}
+
+.p__caracteristica {
+  grid-area: p__caracteristica;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centrar la lista de Precio y Envio */
+
+.li__precio {
+  grid-area: ul__caracteristica;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+
+.section__titulo--secundario {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+  border: 2px solid black;
+  color: #880D1E;
+}
+
+.section__titulo--tercero {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  border: 2px solid black;
+  color: black;
+}
+
+/* MAS VENDIDOS */
+
+.section__vendidos {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 100px 400px;
+  gap: 15px;
+  grid-template-areas: "imagen h3__masVendido h3__masVendido"
+    "imagen datosMasVendido datosMasVendido";
+}
+
+.masVendido {
+  grid-area: imagen;
+  border: 3px solid gray;
+  border-radius: 20%;
+  width: 500px;
+  height: 500px;
+}
+
+#h3__masVendido {
+  grid-area: h3__masVendido;
+}
+
+.datosMasVendido {
+  grid-area: datosMasVendido;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__linkExtra {
+  display: flex;
+}
+
+
+.redes {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .todo {
+    
+    background-color: aqua;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .descuento .titulo {
+    width: 100%;
+  }
+  .section__busqueda {
+    width: 250px;
+  }
+
+  .titulo {
+    font-size: 50px;
+  }
+
+  .listaSuperior,
+  .menuDesplegable,
+  .div__logo,
+  .p__eslogan,
+  .section__carrito,
+  .section__sesion {
+    flex-direction: column;
+  }
+
+  .section__destacados, .section__vendidos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .masVendido {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .todo {
+    
+    background-color: aqua;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .descuento .titulo {
+    width: 100%;
+  }
+.section__busqueda {
+  width: 100px;
+}
+  .titulo {
+    font-size: 45px;
+  }
+
+  .listaSuperior,
+  .menuDesplegable,
+  .div__logo,
+  .p__eslogan,
+  .section__carrito,
+  .section__sesion {
+    flex-direction: column;
+  }
+
+  .section__destacados, .section__vendidos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .masVendido {
+    width: 150px;
+    height: 150px;
+  }
+}
