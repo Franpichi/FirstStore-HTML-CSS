@@ -27,3 +27,10 @@ Primeros diseños responsive realizados, tanto en el Index, como asi tambien en 
 22/08/22
 Creacion de animaciones en el logo e imagenes.
 Estoy trabajando en el contenido real, para ya definir las animaciones correctas.
+
+24/08/22
+Aplicacion de Bootstrap en todas las paginas en lo siguiente:
+  # Barra de Navegacion 
+  # Input de busqueda
+  # Botones de Inicio de Sesio y Carrito
+  # Footer
