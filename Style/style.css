@@ -59,7 +59,9 @@ strong {
   font-size: 20px;
   padding-right: 15px;
 }
-
+.nav-link {
+  background: white;
+}
 .menuDesplegable {
   display: flex;
   align-items: center;
@@ -67,7 +69,7 @@ strong {
   list-style: none;
   background-color: white;
   font-size: 27px;
-  color: #000;
+  color: rgb(35, 52, 207);
   border: #000 solid;
 }
 
@@ -94,6 +96,7 @@ main {
 .section__logo {
   display: flex;
   justify-content: flex-start;
+  margin-left: 100px;
   align-self: flex-start;
   border-radius: 10px;
   border: 5px solid #523249;
@@ -137,6 +140,7 @@ main {
 .section__sesion {
   display: flex;
   justify-content: flex-end;
+  margin-right: 50px;
   align-self: center;
   background-color: white;
   font-size: 20px;
@@ -148,6 +152,7 @@ main {
 .section__carrito {
   display: flex;
   justify-content: flex-end;
+  margin-right: 100px;
   align-self: center;
   background-color: white;
   font-size: 20px;
@@ -164,21 +169,20 @@ main {
   font-size: 20px;
   color: #880D1E;
 }
-
-.section__busqueda {
+.input-group {
   display: flex;
   justify-content: center;
-  align-self: center;
-  width: 400px;
-  height: 50px;
-  border-radius: 25px;
-  background-color: white;
-  color: #94778B;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 22px;
-  margin: auto;
-  text-align: center;
 }
+.form-control {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(86, 143, 218);
+  font-style: italic;
+}
+.btn {
+  background-color: #1512bd;
+}
+
 
 .section__destacados,
 .section__oferta {
@@ -301,7 +305,7 @@ footer {
   .descuento .titulo {
     width: 100%;
   }
-  .section__busqueda {
+  #busquedas {
     width: 250px;
   }
 
@@ -338,7 +342,7 @@ footer {
   .descuento .titulo {
     width: 100%;
   }
-.section__busqueda {
+  #busquedas {
   width: 100px;
 }
   .titulo {

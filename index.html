@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vinum</title>
+  <link rel="stylesheet" href="./Style/bootstrap.min.css">
   <link rel="stylesheet" href="./Style/style.css">
 </head>
 
@@ -41,12 +42,12 @@
   <nav>
     <div>
       <ul class="menuDesplegable">
-        <li class="menu"><a href="./index.html" >Home</a></li>
-        <li class="menu"><a href="./Pages/vino.html" >Vinos</a></li>
-        <li class="menu"><a href="./Pages/maridaje.html">Maridaje</a></li>
-        <li class="menu"><a href="./Pages/regiones.html">Regiones</a></li>
-        <li class="menu"><a href="./Pages/ofertas.html">Ofertas</a></li>
-        <li class="menu"><a href="./Pages/accesorios.html">Accesorios</a></li>
+        <li class="navbar navbar-expand-lg bg-light"><a class="nav-link active" href="./index.html">Home</a></li>
+        <li class="navbar navbar-expand-lg bg-light"><a class="nav-link active" href="./Pages/vino.html">Vinos</a></li>
+        <li class="navbar navbar-expand-lg bg-light"><a class="nav-link active" href="./Pages/maridaje.html">Maridaje</a></li>
+        <li class="navbar navbar-expand-lg bg-light"><a class="nav-link active" href="./Pages/regiones.html">Regiones</a></li>
+        <li class="navbar navbar-expand-lg bg-light"><a class="nav-link active" href="./Pages/ofertas.html">Ofertas</a></li>
+        <li class="navbar navbar-expand-lg bg-light"><a class="nav-link active" href="./Pages/accesorios.html">Accesorios</a></li>
       </ul>
     </div>
   </nav>
@@ -59,18 +60,21 @@
           <img src="./Images/Logo.png" alt="Logo Vinum" class="section__logo" width="200px" />
         </a>
         <p class="p__eslogan">VINUM el placer de tomar un vino, la mejor elección.</p>
-      <!--Inicio de Sesion-->
-      <a href="#" class="section__sesion">
-        <img src="./Images/usuario.png" alt="Inicio de Sesión" width="50px" height="50px">
-        Inicio de Sesion</a>
-      <!-- Carrito -->
-      <a href="#" class="section__carrito">
-        <img src="./Images/carrito.png" alt="Carrito" width="50px" height="50px">
-        Carrito</a>
+        <!--Inicio de Sesion-->
+        <a href="#" class="section__sesion">
+          <img src="./Images/usuario.png" class="rounded-circle" alt="Inicio de Sesion" width="50px" height="50px"></a>
+        <!-- Carrito -->
+        <a href="#" class="section__carrito">
+          <img src="./Images/carrito.png" class="rounded-circle" alt="Carrito" width="50px" height="50px"></a>
       </div>
-      <div>
-        <!--Motor de busqueda-->
-        <input type="search" id="busquedas" name="q" class="section__busqueda" />
+      <!--Motor de busqueda-->
+      <div class="input-group">
+        <div class="form-outline">
+          <input id="search-input" type="search" id="form1" class="form-control" />
+        </div>
+        <button id="search-button" type="button" class="btn btn-primary">
+          <i class="fas fa-search">Buscar</i>
+        </button>
       </div>
     </section>
 
@@ -78,7 +82,7 @@
     <h2 class="section__titulo--secundario">Destacados de la Semana</h2>
     <section class="section__destacados">
       <!--Imagen Numero 1-->
-      <img class="vino1" src="./Images/Botella1.webp" alt="Vino Destacado 1" width="200px" height="300px"/>
+      <img class="vino1" src="./Images/Botella1.webp" alt="Vino Destacado 1" width="200px" height="300px" />
       <h3 class="section__titulo--tercero">Caracteristicas</h3>
       <p class="p__caracteristica">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
@@ -95,7 +99,7 @@
         <li class="li__precio">Envio:</li>
       </ul>
     </section>
-    <section class="section__destacados">  
+    <section class="section__destacados">
       <!--Imagen Numero 2-->
       <img class="vino1" src="./Images/Botella2.png" alt="Vino Destacado 2" width="200px" height="300px" />
       <h3 class="section__titulo--tercero">Caracteristicas</h3>
@@ -178,7 +182,8 @@
     <section class="section__vendidos">
       <img class="masVendido" src="./Images/Botellas.jpg" alt="El mas vendido">
       <h3 class="section__titulo--tercero" id="h3__masVendido">Santa Julia</h3>
-      <p class="datosMasVendido">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quidem! Hic animi minus quis voluptatum iusto deleniti repellat. Unde sapiente atque nemo quasi suscipit quae.</p>
+      <p class="datosMasVendido">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quidem! Hic animi
+        minus quis voluptatum iusto deleniti repellat. Unde sapiente atque nemo quasi suscipit quae.</p>
     </section>
     <section>
       <ul class="redes">
@@ -186,8 +191,7 @@
           <a href="#"><img src="./Images/facebook.png" alt="Facebook" width="40px" height="40px" /></a>
         </li>
         <li>
-          <a href="#"><img src="./Images/instagram.webp" alt="Instagram" width="40px"
-              height="40px" /></a>
+          <a href="#"><img src="./Images/instagram.webp" alt="Instagram" width="40px" height="40px" /></a>
         </li>
         <li>
           <a href="#"><img src="./Images/youtube.png" alt="YouTube" width="40px" height="40px" /></a>
@@ -198,7 +202,13 @@
       </ul>
     </section>
   </main>
-  <footer>Todos Los Derechos Reservados © 2022 Franco Pizzichini</footer>
+  <footer>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2022 Copyright:
+    <a class="text-dark" href="#" > Franco Pizzichini</a>
+    </div>
+  </footer>
+  <script src="./JS/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

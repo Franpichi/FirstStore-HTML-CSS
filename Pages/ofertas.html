@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vinum</title>
+  <link rel="stylesheet" href="../Style/bootstrap.min.css">
   <link rel="stylesheet" href="../Style/style.css">
 </head>
 
@@ -41,16 +42,15 @@
   <nav>
     <div>
       <ul class="menuDesplegable">
-        <li class="menu"><a href="../index.html">Home</a></li>
-        <li class="menu"><a href="../Pages/vino.html">Vinos</a></li>
-        <li class="menu"><a href="../Pages/maridaje.html">Maridaje</a></li>
-        <li class="menu"><a href="../Pages/regiones.html">Regiones</a></li>
-        <li class="menu"><a href="../Pages/ofertas.html" >Ofertas</a></li>
-        <li class="menu"><a href="../Pages/accesorios.html">Accesorios</a></li>
+        <li class="navbar navbar-expand-lg bg-light"><a class="nav-link active" href="../index.html">Home</a></li>
+        <li class="navbar navbar-expand-lg bg-light"><a class="nav-link active" href="../Pages/vino.html">Vinos</a></li>
+        <li class="navbar navbar-expand-lg bg-light"><a class="nav-link active" href="../Pages/maridaje.html">Maridaje</a></li>
+        <li class="navbar navbar-expand-lg bg-light"><a class="nav-link active" href="../Pages/regiones.html">Regiones</a></li>
+        <li class="navbar navbar-expand-lg bg-light"><a class="nav-link active" href="../Pages/ofertas.html">Ofertas</a></li>
+        <li class="navbar navbar-expand-lg bg-light"><a class="nav-link active" href="../Pages/accesorios.html">Accesorios</a></li>
       </ul>
     </div>
   </nav>
-
   <!-- Logo Buscador Inicio de sesion y carrito-->
   <main>
     <section>
@@ -61,28 +61,32 @@
         <p class="p__eslogan">VINUM el placer de tomar un vino, la mejor elección.</p>
       <!--Inicio de Sesion-->
       <a href="#" class="section__sesion">
-        <img src="../Images/usuario.png" alt="Inicio de Sesión" width="50px" height="50px">
-        Inicio de Sesion</a>
+        <img src="../Images/usuario.png" class="rounded-circle" alt="Inicio de Sesion" width="50px" height="50px"></a>
       <!-- Carrito -->
       <a href="#" class="section__carrito">
-        <img src="../Images/carrito.png" alt="Carrito" width="50px" height="50px">
-        Carrito</a>
-      </div>
+        <img src="../Images/carrito.png" class="rounded-circle" alt="Carrito" width="50px" height="50px"></a>
+    </div>
       <div>
-        <!--Motor de busqueda-->
-        <input type="search" id="busquedas" name="q" class="section__busqueda" />
+      <!--Motor de busqueda-->
+      <div class="input-group">
+        <div class="form-outline">
+          <input id="search-input" type="search" id="form1" class="form-control" />
+        </div>
+        <button id="search-button" type="button" class="btn btn-primary">
+          <i class="fas fa-search">Buscar</i>
+        </button>
       </div>
     </section>
       <section>
-        <h2 class="h2Impotante">Ofertas</h2>
+        <h2 class="section__titulo--secundario">Ofertas</h2>
         <!--Imagen Numero 1-->
+        <h3 class="section__titulo--tercero">Caracteristicas</h3>
         <img
           src="../Images/Botella1.webp"
           alt="Vino 1"
           width="200px"
           height="350px"
         />
-        <h3 class="caracteristicas">Caracteristicas</h3>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
           debitis magni exercitationem, rem saepe aspernatur quidem, commodi
@@ -97,13 +101,13 @@
           <li>Maridaje:</li>
         </ul>
         <!--Imagen Numero 2-->
+        <h3 class="section__titulo--tercero">Caracteristicas</h3>
         <img
           src="../Images/Botella2.png"
           alt="Vino 2"
           width="200px"
           height="350px"
         />
-        <h3 class="caracteristicas">Caracteristicas</h3>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
           debitis magni exercitationem, rem saepe aspernatur quidem, commodi
@@ -118,13 +122,13 @@
           <li>Maridaje:</li>
         </ul>
         <!--Imagen Numero 3-->
+        <h3 class="section__titulo--tercero">Caracteristicas</h3>
         <img
           src="../Images/Botella3.png"
           alt="Vino 3"
           width="200px"
           height="350px"
         />
-        <h3 class="caracteristicas">Caracteristicas</h3>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
           debitis magni exercitationem, rem saepe aspernatur quidem, commodi
@@ -139,13 +143,13 @@
           <li>Maridaje:</li>
         </ul>
         <!--Imagen Numero 1-->
+        <h3 class="section__titulo--tercero">Caracteristicas</h3>
         <img
           src="../Images/Botella4.jpg"
           alt="Vino 4"
           width="200px"
           height="350px"
         />
-        <h3 class="caracteristicas">Caracteristicas</h3>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
           debitis magni exercitationem, rem saepe aspernatur quidem, commodi
@@ -160,13 +164,13 @@
           <li>Maridaje:</li>
         </ul>
         <!--Imagen Numero 2-->
+        <h3 class="section__titulo--tercero">Caracteristicas</h3>
         <img
           src="../Images/Botella5.jpg"
           alt="Vino 5"
           width="200px"
           height="350px"
         />
-        <h3 class="caracteristicas">Caracteristicas</h3>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
           debitis magni exercitationem, rem saepe aspernatur quidem, commodi
@@ -181,13 +185,13 @@
           <li>Maridaje:</li>
         </ul>
         <!--Imagen Numero 3-->
+        <h3 class="section__titulo--tercero">Caracteristicas</h3>
         <img
           src="../Images/Botella6.png"
           alt="Vino 6"
           width="200px"
           height="350px"
         />
-        <h3 class="caracteristicas">Caracteristicas</h3>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
           debitis magni exercitationem, rem saepe aspernatur quidem, commodi
@@ -224,7 +228,13 @@
             </ul>
         </section>
         </main>
-        <footer>Todos Los Derechos Reservados © 2022 Franco Pizzichini</footer>
+        <footer>
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+          © 2022 Copyright:
+          <a class="text-dark" href="#" > Franco Pizzichini</a>
+          </div>
+        </footer>
+        <script src="./JS/bootstrap.bundle.min.js"></script>
     </body>
           
 </html>
