@@ -7,14 +7,14 @@
   width: 100%;
 }
 
-header {
+/* header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: blue;
 }
-
-.titulo {
+ */
+/* .titulo {
   display: flex;
   justify-content: center;
   align-self: center;
@@ -23,7 +23,7 @@ header {
   font-weight: bolder;
   font-size: 95px;
   text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-}
+} */
 
 .descuento {
   display: flex;
@@ -40,12 +40,12 @@ strong {
   color: black;
 }
 
-.listaSuperior {
+/* .listaSuperior {
   display: flex;
   justify-content: flex-end;
-}
+} */
 
-.envio {
+/* .envio {
   color: black;
   background-color: #564256;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -58,11 +58,11 @@ strong {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 20px;
   padding-right: 15px;
-}
-.nav-link {
+} */
+/* .nav-link {
   background: white;
-}
-.menuDesplegable {
+} */
+/* .menuDesplegable {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -72,17 +72,7 @@ strong {
   color: rgb(35, 52, 207);
   border: #000 solid;
 }
-
-.menu a {
-  color: black;
-  text-decoration: none;
-}
-
-.menu a:hover {
-  font-size: 25px;
-  color: #880D1E;
-}
-
+ */
 main {
   background-color: white;
 }

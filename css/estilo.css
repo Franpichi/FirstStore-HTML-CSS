@@ -1,0 +1,46 @@
+body {
+  background: #C55898; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #C55898; }
+  header .titulo {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: #854380;
+    font-family: 'Crimson Pro', serif;
+    font-size: 10rem;
+    font-weight: bolder;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; }
+  header .descuento {
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Crimson Pro', serif; }
+  header #codigoDescuento {
+    color: black;
+    font-family: 'Crimson Pro', serif; }
+  header .listaSuperior {
+    display: flex;
+    justify-content: flex-end; }
+  header .envio, header .moneda {
+    color: black;
+    background: #C55898;
+    font-weight: bolder;
+    border: #000 2px solid;
+    font-family: 'Crimson Pro', serif; }
+
+nav .menuDesplegable {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  background: #C55898;
+  font-size: 1.7rem;
+  color: black;
+  border: #000 2px solid; }
+
+nav .nav-link, nav .navbar {
+  background: #C55898; }

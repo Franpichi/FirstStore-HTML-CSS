@@ -6,8 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vinum</title>
-  <link rel="stylesheet" href="./Style/bootstrap.min.css">
-  <link rel="stylesheet" href="./Style/style.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/estilo.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
 </head>
 
 <body class="todo">
@@ -15,26 +17,26 @@
   <header>
     <!--Descuento envio precio e idioma-->
     <section class="descuento">
-      <p>Codigo de Descuento: <strong class="vinum"> VINUM </strong></p>
+      <p>Codigo de Descuento: <strong class="vinum" id="codigoDescuento"> VINUM </strong></p>
     </section>
-    <section>
+    <section id="tituloPrincipal">
       <h1 class="titulo">Vinum</h1>
     </section>
     <section class="listaSuperior">
       <select class="envio">
         <label>Enviar A:</label>
-        <option>Argentina</option>
-        <option>Brasil</option>
-        <option>Chile</option>
-        <option>Ecuador</option>
-        <option>Venezuela</option>
+        <option class="envio">Argentina</option>
+        <option class="envio">Brasil</option>
+        <option class="envio">Chile</option>
+        <option class="envio">Ecuador</option>
+        <option class="envio">Venezuela</option>
       </select>
       <select class="moneda">
         <label>Moneda</label>
-        <option>$Ar</option>
-        <option>R$</option>
-        <option>$ch</option>
-        <option>$Us</option>
+        <option class="moneda">$Ar</option>
+        <option class="moneda">R$</option>
+        <option class="moneda">$ch</option>
+        <option class="moneda">$Us</option>
       </select>
     </section>
   </header>

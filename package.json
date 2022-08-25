@@ -1,0 +1,25 @@
+{
+  "name": "vinum-pizzichini-33025",
+  "version": "1.0.0",
+  "description": "Desafio1-Pizzichini\r Resto de carpetas creadas. Al estar vacias no se suben a Git Hub.\r Wireframe cargado en DRIVE publico\r 26/07/22",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Franpichi/Vinum-Pizzichini.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Franpichi/Vinum-Pizzichini/issues"
+  },
+  "homepage": "https://github.com/Franpichi/Vinum-Pizzichini#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "surge": "^0.23.1"
+  }
+}

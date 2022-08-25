@@ -1,0 +1,63 @@
+$fondo:#C55898;
+$letra:#854380;
+$letraDescuento:#7A365E;
+$listaPaisesMoneda: #66599E;
+
+body{
+    background:$fondo;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $fondo;
+    .titulo {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        color: $letra;
+        font-family: 'Crimson Pro', serif;
+        font-size: 10rem;
+        font-weight: bolder;
+        text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    }
+    .descuento {
+        color: black;
+        font-size: 1.2rem;
+        font-family: 'Crimson Pro', serif;
+    }
+    #codigoDescuento {
+        color: black;
+        font-family: 'Crimson Pro', serif;
+    }
+    .listaSuperior {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .envio, .moneda {
+        color: black;
+        background: $fondo;
+        font-weight: bolder;
+        border: #000 2px solid;
+        font-family: 'Crimson Pro', serif;
+    }
+}
+
+nav {
+    .menuDesplegable {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+        background:$fondo;
+        font-size: 1.7rem;
+        color: black;
+        border: #000 2px solid;
+    }
+    .nav-link, .navbar{
+        background:$fondo;
+    }
+
+}
+
