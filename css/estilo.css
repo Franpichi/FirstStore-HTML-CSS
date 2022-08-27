@@ -1,5 +1,5 @@
 body {
-  background: #C55898; }
+  background: white; }
 
 header {
   display: flex;
@@ -10,9 +10,10 @@ header {
     display: flex;
     justify-content: center;
     align-self: center;
+    margin-left: 150px;
     color: #854380;
     font-family: 'Crimson Pro', serif;
-    font-size: 10rem;
+    font-size: 9rem;
     font-weight: bolder;
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; }
   header .descuento {
@@ -28,8 +29,10 @@ header {
   header .envio, header .moneda {
     color: black;
     background: #C55898;
+    margin-right: 15px;
     font-weight: bolder;
     border: #000 2px solid;
+    border-radius: 10%;
     font-family: 'Crimson Pro', serif; }
 
 nav .menuDesplegable {
@@ -37,10 +40,111 @@ nav .menuDesplegable {
   align-items: center;
   justify-content: space-around;
   list-style: none;
-  background: #C55898;
+  background: white;
   font-size: 1.7rem;
   color: black;
-  border: #000 2px solid; }
+  border: #000 2px solid;
+  font-family: 'Crimson Pro', serif; }
 
 nav .nav-link, nav .navbar {
-  background: #C55898; }
+  background: white; }
+
+.div__logo .p__eslogan {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  color: #854380;
+  font-family: 'Crimson Pro', serif; }
+
+.div__logo .section__sesion, .div__logo .section__carrito {
+  border: #000 solid 2px;
+  border-radius: 15px;
+  height: 70px;
+  width: 70px; }
+
+.section__titulo--secundario {
+  font-size: 55px; }
+
+.section__titulo--tercero {
+  font-size: 35px; }
+
+.section__titulo--secundario,
+.section__titulo--tercero {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-weight: bolder;
+  /* font-size: 2.5rem; */
+  color: #854380;
+  font-family: 'Crimson Pro', serif;
+  border: 2px solid black; }
+
+.input-group .form-control {
+  background: white;
+  border: #000 solid 3px; }
+
+.input-group #search-button {
+  background: #C55898;
+  color: black;
+  font-size: 1rem;
+  border: #000 solid 3px; }
+
+.section__destacados {
+  margin: 5px 25px 5px 25px; }
+  .section__destacados .section__titulo--tercero {
+    font-size: 2.5rem;
+    color: #854380;
+    font-family: 'Crimson Pro', serif; }
+  .section__destacados .vino1 {
+    font-size: 2.5rem;
+    color: #854380;
+    font-family: 'Crimson Pro', serif; }
+  .section__destacados .ul__caracteristicas {
+    display: block;
+    justify-content: flex-start;
+    align-self: flex-start;
+    font-size: 2em;
+    color: #854380;
+    font-family: 'Crimson Pro', serif;
+    text-shadow: 0.5px 0 0 #000, -0.5px 0 0 #000, 0 0.5px 0 #000, 0 -0.5px 0 #000, 0.5px 0.5px #000, -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000; }
+
+.section__vino {
+  margin: 5px 10px 5px 10px; }
+  .section__vino .ul__caracteristicas {
+    display: block;
+    justify-content: flex-start;
+    align-self: flex-start;
+    font-size: 1.5em;
+    color: #854380;
+    font-family: 'Crimson Pro', serif;
+    text-shadow: 0.5px 0 0 #000, -0.5px 0 0 #000, 0 0.5px 0 #000, 0 -0.5px 0 #000, 0.5px 0.5px #000, -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000; }
+
+/* Maridaje  */
+.imagenesLinkAnimales {
+  display: flex;
+  justify-content: space-around;
+  border: #000 solid 2px;
+  padding: 10px 150px 10px 150px;
+  margin: 0px 10px 0px 10px; }
+
+.imagenInfoAnimales {
+  margin: 0px 10px 0px 10px;
+  padding: 0px 15px 0px 15px;
+  display: grid;
+  grid-template-columns: 7fr 15fr 7fr;
+  grid-template-rows: 3fr 3fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-areas: "maridajeAnimalTitulo maridajeAnimalTitulo maridajeAnimalTitulo " "imagenAnimales infoAnimales infoAnimales"; }
+
+#maridajeAnimalTitulo {
+  grid-area: maridajeAnimalTitulo; }
+
+.imagenAnimales {
+  grid-area: imagenAnimales; }
+
+.infoAnimales {
+  grid-area: infoAnimales;
+  padding-right: 75px; }

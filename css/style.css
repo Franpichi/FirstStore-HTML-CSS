@@ -89,7 +89,7 @@ main {
   margin-left: 100px;
   align-self: flex-start;
   border-radius: 10px;
-  border: 5px solid #523249;
+  border: 5px solid #854380;
   animation: imagenes 2s infinite;
 }
 
@@ -117,7 +117,7 @@ main {
 /* .section__logo a:hover {
   box-shadow: 0 0 2px 1px #523249;
 } */
-.p__eslogan {
+/* .p__eslogan {
   display: flex;
   justify-content: center;
   align-self: center;
@@ -125,7 +125,7 @@ main {
   font-size: 30px;
   font-weight: bolder;
   color: black;
-}
+} */
 
 .section__sesion {
   display: flex;
@@ -175,14 +175,14 @@ main {
 
 
 .section__destacados,
-.section__oferta {
+.section__vino {
   display: grid;
   grid-template-columns: 7fr 15fr 7fr;
   grid-template-rows: 3fr 15fr;
   row-gap: 15px;
   column-gap: 50px;
   grid-template-areas: "section__titulo--tercero section__titulo--tercero section__titulo--tercero"
-    "vino1 p__caracteristica li__precio";
+    "vino1 p__caracteristica ul__caracteristicas";
 }
 
 .section__titulo--tercero {
@@ -192,6 +192,12 @@ main {
 .vino1 {
   grid-area: vino1;
   animation: imag 5s infinite;
+}
+.ul__caracteristicas {
+  grid-area: ul__caracteristicas;
+  display: block;
+  justify-self: start;
+  padding: 100px 150px 100px 10px;
 }
 
 @keyframes imag {
@@ -218,7 +224,7 @@ main {
 }
 
 
-.section__titulo--secundario {
+/* .section__titulo--secundario {
   display: flex;
   justify-content: center;
   align-self: center;
@@ -226,9 +232,9 @@ main {
   font-size: 50px;
   border: 2px solid black;
   color: #880D1E;
-}
+} */
 
-.section__titulo--tercero {
+/* .section__titulo--tercero {
   display: flex;
   justify-content: center;
   align-self: center;
@@ -236,7 +242,7 @@ main {
   font-size: 30px;
   border: 2px solid black;
   color: black;
-}
+} */
 
 /* MAS VENDIDOS */
 
