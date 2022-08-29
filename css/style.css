@@ -25,13 +25,6 @@
   text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 } */
 
-.descuento {
-  display: flex;
-  justify-content: flex-start;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-weight: lighter;
-  font-size: 20px;
-}
 
 strong {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -290,15 +283,14 @@ footer {
   justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
-  .todo {
-    
-    background-color: aqua;
+@media all and (max-width: 768px) {
+  body {
+    background-color: white;
     flex-direction: column;
-    width: 100%;
+/*     width: 100%; */
   }
 
-  .descuento .titulo {
+.titulo {
     width: 100%;
   }
   #busquedas {
@@ -306,16 +298,24 @@ footer {
   }
 
   .titulo {
-    font-size: 50px;
+    padding-left: 5px;
+    font-size: 1.9rem;
+    flex-wrap: wrap;
   }
 
   .listaSuperior,
+  .moneda {
+    flex-direction: column;
+    width: 100%;
+  }
+
   .menuDesplegable,
   .div__logo,
   .p__eslogan,
   .section__carrito,
   .section__sesion {
     flex-direction: column;
+    width: 100%;
   }
 
   .section__destacados, .section__vendidos {
@@ -330,12 +330,12 @@ footer {
 @media screen and (max-width: 420px) {
   .todo {
     
-    background-color: aqua;
+    background-color: white;
     flex-direction: column;
     width: 100%;
   }
 
-  .descuento .titulo {
+.titulo {
     width: 100%;
   }
   #busquedas {
