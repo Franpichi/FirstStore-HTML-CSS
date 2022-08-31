@@ -32,3 +32,7 @@ Estoy trabajando en el contenido real, para ya definir las animaciones correctas
 Unifique los estilos de todas las paginas.
 Mejore las imagenes
 Necesito continuar trabajando con Responsive.
+
+31/08/22
+Agregue lo solicitado en la correccion.
+Agregue un _colores.scss porque fueron con las unicas variables que trabaje hasta el momento.
