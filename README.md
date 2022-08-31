@@ -27,3 +27,8 @@ Primeros diseños responsive realizados, tanto en el Index, como asi tambien en 
 22/08/22
 Creacion de animaciones en el logo e imagenes.
 Estoy trabajando en el contenido real, para ya definir las animaciones correctas.
+
+29/08/22
+Unifique los estilos de todas las paginas.
+Mejore las imagenes
+Necesito continuar trabajando con Responsive.
