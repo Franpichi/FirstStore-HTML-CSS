@@ -1,10 +1,7 @@
-$fondo:#C55898;
-$letra:#854380;
-$letraDescuento:#7A365E;
-$listaPaisesMoneda: #66599E;
+@import "colores";
 
 body{
-    background:white;
+    background:$fondoTodo
 }
 
 header {
