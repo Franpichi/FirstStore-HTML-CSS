@@ -36,3 +36,9 @@ Necesito continuar trabajando con Responsive.
 31/08/22
 Agregue lo solicitado en la correccion.
 Agregue un _colores.scss porque fueron con las unicas variables que trabaje hasta el momento.
+
+07/09/22
+Continuacion del progreso en la rama SASS
+Aplicacion de Mixin, Extend y Maps
+Comienzo de optimizaciones SEO en todas las paginas.
+
