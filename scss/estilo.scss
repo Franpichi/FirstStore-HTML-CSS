@@ -1,4 +1,7 @@
 @import "colores";
+@import "letras";
+
+
 
 body{
     background:$fondoTodo
@@ -15,10 +18,10 @@ header {
         align-self: center;
         margin-left: 1rem;
         color: $letra;
-        font-family: 'Crimson Pro', serif;
+        font-family:$estiloLetra;
         font-size: 9rem;
         font-weight: bolder;
-        text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+        text-shadow:$bordeLetra;
     }
 
     }
