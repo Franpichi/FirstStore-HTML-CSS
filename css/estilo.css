@@ -182,3 +182,13 @@ nav .nav-link, nav .navbar {
     color: #854380;
     font-family: 'Crimson Pro', serif;
     font-weight: bolder; }
+
+/* Map */
+.p__caracteristica--texto1 {
+  color: #46494a; }
+
+.p__caracteristica--texto2 {
+  color: #27282b; }
+
+.p__caracteristica--texto3 {
+  color: #27221f; }

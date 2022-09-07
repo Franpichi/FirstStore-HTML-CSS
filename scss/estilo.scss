@@ -233,3 +233,26 @@ nav {
     }
 
 }
+
+
+/* Map */
+
+$texto:  (
+    texto1:#46494a,
+    texto2:#27282b,
+    texto3:#27221f,
+);
+
+@each $red, $color in $texto {
+    .p__caracteristica--#{$red}{
+        color: $color;
+    }
+}
+
+
+
+
+
+
+
+
