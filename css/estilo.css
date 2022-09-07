@@ -1,3 +1,4 @@
+/* Mixin con parametros */
 body {
   background: white; }
 
@@ -56,8 +57,23 @@ nav .nav-link, nav .navbar {
 .div__logo .section__sesion, .div__logo .section__carrito {
   border: #000 solid 2px;
   border-radius: 15px;
-  height: 70px;
-  width: 70px; }
+  height: 75px;
+  width: 75px; }
+
+/* Extend */
+.p__caracteristica {
+  color: black;
+  font-size: 20px;
+  font-family: "Crimson Pro", serif; }
+
+.p__caracteristica--textoUno {
+  color: #393939; }
+
+.p__caracteristica--textoDos {
+  color: #3a3838; }
+
+.p__caracteristica--textoTres {
+  color: #332c2c; }
 
 .section__titulo--secundario {
   font-size: 55px; }

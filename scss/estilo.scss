@@ -1,6 +1,14 @@
 @import "colores";
 @import "letras";
 
+/* Mixin con parametros */
+
+@mixin sizes ($altura, $ancho) {
+    height: $altura;
+    width: $ancho;
+}
+
+
 
 
 body{
@@ -69,10 +77,30 @@ nav {
     .section__sesion, .section__carrito {
         border: #000 solid 2px;
         border-radius: 15px;
-        height: 70px;
-        width: 70px;
+        @include sizes (75px, 75px);
     }
+
 }
+
+
+    /* Extend */
+
+.p__caracteristica {
+    color: black;
+    font-size: 20px;
+    font-family: $estiloLetra;
+}
+
+.p__caracteristica--textoUno{
+    color: rgb(57, 57, 57);
+}
+.p__caracteristica--textoDos{
+    color: rgb(58, 56, 56);
+}
+.p__caracteristica--textoTres{
+    color: rgb(51, 44, 44);
+}
+
 .section__titulo--secundario{
     font-size: 55px;
 }
