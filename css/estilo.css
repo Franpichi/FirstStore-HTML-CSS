@@ -27,7 +27,7 @@ header {
   background: #C55898;
   margin-right: 15px;
   font-weight: bolder;
-  border: #000 2px solid;
+  border: 5px solid #854380;
   border-radius: 10%;
   font-family: 'Crimson Pro', serif; }
 
@@ -55,7 +55,7 @@ nav .nav-link, nav .navbar {
   font-family: 'Crimson Pro', serif; }
 
 .div__logo .section__sesion, .div__logo .section__carrito {
-  border: #000 solid 2px;
+  border: 5px solid #854380;
   border-radius: 15px;
   height: 75px;
   width: 75px; }

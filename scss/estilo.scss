@@ -33,6 +33,7 @@ header {
     }
 
     }
+
     .listaSuperior {
         display: flex;
         justify-content: flex-end;
@@ -42,7 +43,7 @@ header {
         background: $fondo;
         margin-right: 15px;
         font-weight: bolder;
-        border: #000 2px solid;
+        border: 5px solid #854380;
         border-radius: 10%;
         font-family: 'Crimson Pro', serif;
     }
@@ -75,7 +76,7 @@ nav {
         font-family: 'Crimson Pro', serif;
 }
     .section__sesion, .section__carrito {
-        border: #000 solid 2px;
+        border: 5px solid #854380;
         border-radius: 15px;
         @include sizes (75px, 75px);
     }
