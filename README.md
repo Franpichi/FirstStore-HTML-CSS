@@ -42,6 +42,12 @@ Continuacion del progreso en la rama SASS
 Aplicacion de Mixin, Extend y Maps
 Comienzo de optimizaciones SEO en todas las paginas.
 
+19/09/22
+
+https://fpizzichini.000webhostapp.com/
+
+Link del proyecto operativo
+
 24/09/22
 
 Entrega Final terminada.
