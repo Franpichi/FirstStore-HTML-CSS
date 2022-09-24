@@ -287,28 +287,41 @@ footer {
   body {
     background-color: white;
     flex-direction: column;
-/*     width: 100%; */
+    width: 100%; 
+
   }
 
 .titulo {
-    width: 100%;
+    width: 90%;
+
+
   }
   #busquedas {
     width: 250px;
   }
 
   .titulo {
-    padding-left: 5px;
     font-size: 1.9rem;
     flex-wrap: wrap;
   }
 
-  .listaSuperior,
-  .moneda {
+  .logoEslogaCarro {
     flex-direction: column;
-    width: 100%;
+    width: 95%;
   }
-
+  .section__titulo--tercero {
+    width: 85%;
+    border: none;
+    visibility: hidden;
+  }
+.ul__caracteristicas{
+  visibility: hidden;
+}
+  .listaSuperior,
+  .section__carrito,
+  .section__sesion {
+    visibility: hidden;
+  }
   .menuDesplegable,
   .div__logo,
   .p__eslogan,
@@ -316,6 +329,9 @@ footer {
   .section__sesion {
     flex-direction: column;
     width: 100%;
+  }
+  .menuDesplegable {
+    border: none;
   }
 
   .section__destacados, .section__vendidos {
@@ -325,6 +341,11 @@ footer {
     width: 250px;
     height: 250px;
   }
+  .imagenesLinkAnimales {
+    flex-direction: column;
+    padding-left: 25px;
+    border: none;
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -333,13 +354,23 @@ footer {
     background-color: white;
     flex-direction: column;
     width: 100%;
+
+
   }
+  .listaSuperior,
+  .section__carrito,
+  .section__sesion {
+    visibility: hidden;
+  }
+.section__titulo--tercero{
+  visibility: hidden;
+}
 
 .titulo {
-    width: 100%;
+    width: 80%;
   }
   #busquedas {
-  width: 100px;
+  width: 150px;
 }
   .titulo {
     font-size: 45px;
