@@ -42,3 +42,6 @@ Continuacion del progreso en la rama SASS
 Aplicacion de Mixin, Extend y Maps
 Comienzo de optimizaciones SEO en todas las paginas.
 
+24/09/22
+
+Entrega Final terminada.
